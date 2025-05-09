@@ -219,6 +219,10 @@ vendor.gralloc.disable_ubwc=0
 # Incremental FS
 ro.incremental.enable=yes
 
+# Logging
+persist.log.tag.QC2Buf=W
+persist.log.tag.QC2V4l2Codec=E
+
 # Media
 debug.stagefright.c2inputsurface=-1
 ro.odm.build.media_performance_class=30
