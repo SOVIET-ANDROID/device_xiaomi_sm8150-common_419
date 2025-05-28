@@ -1,6 +1,7 @@
 # All unpinned blobs below are extracted from nabu_global-user 13 RKQ1.200826.002 V816.0.6.0.TKXMIXM release-keys
 # kebab: KB2001 14.0.0.81(EX01)
 # raphael: raphael-user 11 RKQ1.200826.002 V12.5.2.0.RFKMIXM release-keys
+# vayu: vayu_global-user 13 RKQ1.200826.002 V14.0.3.0.TJUMIXM release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -40,11 +41,11 @@ vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/libqtigef.so
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbtnv.so
+# Bluetooth - from vayu
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|323c931eb367ed303d71f435c407cfcbc96d079c
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|547e4359452c56d93d27d5c450aa120678f994e7
+vendor/lib64/libbtnv.so|b72a66ef2d0f7ce315e19f162db60db8891f3e61
 
 # Bluetooth (A2DP)
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
