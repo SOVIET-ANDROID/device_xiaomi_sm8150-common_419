@@ -318,7 +318,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh \
     init.qti.chg_policy.sh \
-    init.qti.dcvs.sh
+    init.qti.dcvs.sh \
+    usb_compositions.conf
 
 PRODUCT_PACKAGES += \
     init.qcom.power.rc \
@@ -356,7 +357,8 @@ PRODUCT_BOOT_JARS += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti
+    android.hardware.usb-service.qti \
+    android.hardware.usb.gadget-service.qti
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
